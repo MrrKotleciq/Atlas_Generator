@@ -111,4 +111,11 @@ The generator structures your target Obsidian directory with a neat system-speci
 
 **Updating the Graph:** Simply re-run atlas inside your project directory at any time to recreate the folder structure and refresh your Obsidian notes.
 
+*Graph example:*
+![Node graph](img\graph.png "Nodes graph" )
+
+*Notes example:*
+
+![Note example](img\notes.png  "Note example")
+
 **Graph View Viewport:** In order to see the graph in Obsidian, make sure to open a correct vault folder, enable the Graph View and adjust filters to group modules, classes, and methods by tags to get a beautifully clustered color-coded view of your codebase! 

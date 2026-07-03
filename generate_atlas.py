@@ -237,7 +237,7 @@ def run_atlas_generator():
         # Note for classes
 
         for cls_name, cls_info in data['classes'].items():
-            yaml = f"---\ntype: class\nfile: {mod_path}\nline: {cls_info['lineno']}\n bases: {', '.join(cls_info['bases']) if cls_info['bases'] else 'None'}\n---\n\n"
+            yaml = f"---\ntype: class\nfile: {mod_path}\nline: {cls_info['lineno']}\nbases: {', '.join(cls_info['bases']) if cls_info['bases'] else 'None'}\n---\n\n"
             cls_content = yaml + f"# 📦 Class: {cls_name}\n#project-class\n\n{generate_vscode_link(full_path, cls_info['lineno'])}\n\n**File:** [[Module_{mod_path.replace(os.sep, '_')}]]\n\n"
             if cls_info.get('bases'):
                 bases_links = ', '.join([f"[[Class_{b}]]," for b in cls_info['bases']])
