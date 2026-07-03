@@ -113,12 +113,12 @@ The generator structures your target Obsidian directory with a neat system-speci
 
 *Graph example:*
 <!--START_SECTION:update_image-->
-![Node graph](.github\images\graph.png "Nodes graph" )
+![Node graph](.github/images/graph.png "Nodes graph" )
 <!--END_SECTION:update_image-->
 
 *Notes example:*
 <!--START_SECTION:update_image-->
-![Note example](.github\images\notes.png  "Note example")
+![Note example](.github/images/notes.png  "Note example")
 <!--END_SECTION:update_image-->
 
 **Graph View Viewport:** In order to see the graph in Obsidian, make sure to open a correct vault folder, enable the Graph View and adjust filters to group modules, classes, and methods by tags to get a beautifully clustered color-coded view of your codebase! 
