@@ -113,7 +113,7 @@ The generator structures your target Obsidian directory with a neat system-speci
 
 *Graph example:*
 <!--START_SECTION:update_image-->
-![Node graph](.github/images/graph.png "Nodes graph" )
+![Node graph](./.github/images/graph.png "Nodes graph" )
 <!--END_SECTION:update_image-->
 
 *Notes example:*
